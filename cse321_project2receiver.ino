@@ -25,7 +25,8 @@ RF24 radio(9, 10);  // CE, CSN pins
 // How close must an obstacle be to activate brakes
 #define DISTANCE_THRESHOLD 50
 
-const byte address[6] = "00001";  // Address for communication
+// address for radio communication, same as transmitter
+const byte address[6] = "00001";
 
 int getFrontDistance(), getBackDistance();
 
