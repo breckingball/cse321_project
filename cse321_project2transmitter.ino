@@ -5,7 +5,8 @@
 #define JOYSTICK2_X A1
 RF24 radio(9, 10);  // CE, CSN pins
 
-const byte address[6] = "00001";  // Address for communication
+// address for radio communication, same as receiver
+const byte address[6] = "00001"; 
 
 void setup() {
   if(!radio.begin()){
