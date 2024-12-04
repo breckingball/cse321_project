@@ -23,3 +23,5 @@ Instructions to Use Project:
   - Drive the vehicle forward or backward holding both joysticks in the same direction
   - Go towards a wall to see the vehicle slow down and try to not hit the wall you are going towards
   - Try turning on/off lights nearby to see the automatic lights turn on when needed
+
+Test Scripts were used when initially trying out components, but have been added onto to create the final code that you see now.
